@@ -1,0 +1,46 @@
+// assets/css/global.scss
+
+// customize some Bootstrap variables
+$brand-primary: darken(#428bca, 20%);
+
+$body-bg: white;
+$body-color: #eef;
+$color: #eef;
+
+body{
+  h1 {
+    color: white;
+  }
+  .table-footer,.table-header{
+    display: none;}
+
+  [id^=detail-]{
+    padding:1rem 0;
+  }
+
+  .alert{
+    margin-top:15px;
+  }
+  .navbar{
+    margin-bottom: 0;
+  }
+  a{
+    padding: 0.5rem;
+  }
+  footer.footer{
+    padding-bottom:0 !important;
+    background: #3b5067;
+    color: white;
+  }
+  .table-footer{
+    margin-bottom:60px;
+  }
+  .text-muted{
+    color:white;
+  }
+}
+
+
+
+// the ~ allows you to reference things in node_modules
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
